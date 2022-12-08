@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
   * Main - Prints out size the various types
   * on the computer it is compiled and run on.
