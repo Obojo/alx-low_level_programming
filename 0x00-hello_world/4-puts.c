@@ -4,9 +4,9 @@ int main(void)
 {
 	char line;
 
-	line = "Programming is like building a multilingual puzzle";
+	line [] = "Programming is like building a multilingual puzzle";
 
 	/* writing to stdout */
-	puts(char);
+	puts(line);
 	return (0);
 }
