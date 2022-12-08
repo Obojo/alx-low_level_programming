@@ -1,2 +1,2 @@
 #!/bin/bash
-cp main.c c
+cp CFILE c
