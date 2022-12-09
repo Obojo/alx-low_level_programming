@@ -7,6 +7,7 @@
  */
 int main(void)
 {
-	write(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19", 59);
+	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19", 59);
+	write(stderr, "Anything", 8);
 	return (1);
 }
