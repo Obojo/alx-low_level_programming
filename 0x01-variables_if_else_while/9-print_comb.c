@@ -15,7 +15,7 @@ int main(void)
 		{
 			putchar(ch);
 			putchar(',');
-			pitchar(' ');
+			putchar(' ');
 		}
 		else
 		{
