@@ -15,12 +15,12 @@ int main(void)
 		{
 			putchar(ch);
 			putchar(',');
+			pitchar(' ');
 		}
 		else
 		{
 			putchar(ch);
 		}
 	}
-	putchar('\n');
 	return (0);
 }
