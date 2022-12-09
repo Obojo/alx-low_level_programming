@@ -8,17 +8,15 @@
 int main(void)
 {
 	int ch;
+	int ch1;
 
 	for (ch = '0'; ch <= '9'; ch++)
 	{
-		if (ch != '9')
+		for (ch1 = '0'; ch1 <='9'; ch1++)
 		{
 			putchar(ch);
+			putchar(ch1);
 			putchar(',');
-		}
-		else
-		{
-			putchar(ch);
 		}
 	}
 	putchar('\n');
