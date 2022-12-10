@@ -22,15 +22,14 @@ int main(void)
 			{
 				for (d = '0'; d <= '9'; d++)
 				{
-					ab = (a*10) + b;
-					cd = (c*10) + d;
+					ab = (a * 10) + b;
+					cd = (c * 10) + d;
 					if (ab >= cd)
 					{
 						NULL;
 					}
 					else
 					{
-						
 						putchar(a);
 						putchar(b);
 						putchar(' ');
