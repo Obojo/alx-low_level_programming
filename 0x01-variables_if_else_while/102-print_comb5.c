@@ -11,8 +11,6 @@ int main(void)
 	int b;
 	int c;
 	int d;
-	int ab;
-	int cd;
 
 	for (a = '0'; a <= '9'; a++)
 	{
@@ -22,9 +20,7 @@ int main(void)
 			{
 				for (d = '0'; d <= '9'; d++)
 				{
-					ab = (a * 10) + b;
-					cd = (c * 10) + d;
-					if (ab >= cd)
+					if (((a * 10) + b) >= ((c * 10) + d))
 					{
 						NULL;
 					}
