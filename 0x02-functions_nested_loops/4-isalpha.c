@@ -3,6 +3,7 @@
 /**
  * _isalpha - chech if a character is an alphabet
  *
+ *@c: Character
  * Return: 1 if a charrater is an alphabet
  * else, 0.
  */

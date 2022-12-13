@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign - chech the sign of a number
+ * print_sign - check the sign of a number
  *
+ * @n: number
  * Return: 1 for positive, -1 for negative
  * 0 for neutral.
  */
