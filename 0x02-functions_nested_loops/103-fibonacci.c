@@ -18,13 +18,13 @@ int main(void)
 		{
 			i += c;
 		}
-		a = b;
-		b = c;
-		c = a + b;
 		else
 		{
 			NULL;
 		}
+		a = b;
+		b = c;
+		c = a + b;
 	}
 	printf("%d\n", i);
 	return (0);
