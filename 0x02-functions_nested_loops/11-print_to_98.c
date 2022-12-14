@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * print_to_98 - display numbers and stop at 98
+ *
+ * @n: natural number
+ * Return: 0
+ */
+
 void print_to_98(int n)
 {
 	int i;
@@ -15,7 +22,7 @@ void print_to_98(int n)
 				printf(", ");
 			}
 		}
-	} 
+	}
 	else
 	{
 		for (i = n; i <= 98; i++)
