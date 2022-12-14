@@ -2,7 +2,7 @@
 #include "6-abs.c"
 
 /**
- * print_last_digit: display last digit
+ * print_last_digit - display last digit
  *
  * @a: number
  * Return: value of last digit
