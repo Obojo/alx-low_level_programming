@@ -12,12 +12,12 @@ int main(void)
 	unsigned long int b = 2;
 	unsigned long int c = a + b;
 
-	printf("%.0f, ", a);
-	printf("%.0f, ", b);
+	printf("%lu, ", a);
+	printf("%lu, ", b);
 	while (i < 96)
 	{
 		i++;
-		printf("%.0f", c);
+		printf("%lu", c);
 		a = b;
 		b = c;
 		c = a + b;
