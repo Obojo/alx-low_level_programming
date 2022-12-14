@@ -8,9 +8,9 @@
 int main(void)
 {
 	int i = 0;
-	float a = 1;
-	float b = 2;
-	float c = a + b;
+	unsigned long int a = 1;
+	unsigned long int b = 2;
+	unsigned long int c = a + b;
 
 	printf("%.0f, ", a);
 	printf("%.0f, ", b);
