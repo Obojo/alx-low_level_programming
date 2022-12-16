@@ -20,7 +20,7 @@ int main(void)
 		{
 			a++;
 		}
-		printf("%lu\n", i);
-		return (0);
 	}
+	printf("%lu\n", i);
+	return (0);
 }
