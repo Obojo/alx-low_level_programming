@@ -6,7 +6,7 @@
  *
  * Return: 0
  */
-void print_rev(char *)
+void print_rev(char *s)
 {
 	int i;
 	char temp;
